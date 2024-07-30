@@ -12,7 +12,7 @@ export function LandingPage(){
     const [failureMessage, setFailureMessage] = useState("");
     const [loadingMessage, setLoadingMessage] = useState(false);
 
-    const shortBaseUrl = 'https://urlshortener-backend-8s78.onrender.com'
+    const shortBaseUrl = 'https://urlshortener-fsd.netlify.app'
 
     const initVal = {
         longUrl: "",
