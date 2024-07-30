@@ -12,7 +12,7 @@ export function LandingPage(){
     const [failureMessage, setFailureMessage] = useState("");
     const [loadingMessage, setLoadingMessage] = useState(false);
 
-    const shortBaseUrl = 'http://localhost:5173'
+    const shortBaseUrl = 'https://urlshortener-backend-8s78.onrender.com'
 
     const initVal = {
         longUrl: "",
